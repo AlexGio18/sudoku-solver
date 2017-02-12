@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: "puzzle#index"
+  root to: "puzzles#index"
+  resources :puzzles
 end
