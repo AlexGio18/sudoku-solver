@@ -1,0 +1,13 @@
+<div class="container">
+  <h1> Sudoku Solver </h1>
+  <%= form_for(@puzzle) do |f| %>
+
+  <p>
+    <%= f.label :input_string %><br/>
+    <%= f.text_field :input_string %>
+  </p>
+  <p>
+    <%= f.submit "Solve Puzzle" %>
+  </p>
+  <% end %>
+</div>
